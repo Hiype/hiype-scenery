@@ -1,16 +1,10 @@
--- local Translations = {
---     error = {
+local Translations = {
+    info = {
+        enjoy_view = 'E to enjoy the view',
+    },
+}
 
---     },
---     info = {
-
---     },
---     commands = {
-
---     },
--- }
-
--- Lang = Locale:new({
---     phrases = Translations,
---     warnOnMissing = true
--- })
+Lang = Locale:new({
+    phrases = Translations,
+    warnOnMissing = true
+})

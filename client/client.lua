@@ -27,9 +27,10 @@ combo:onPlayerInOut(function(isPointInside, point, zone)
         currentZone = zone
         
         if Config.UseNotify then
-            QBCore.Functions.Notify('E to enjoy the view', 'primary', 2500)
+            QBCore.Functions.Notify(Lang:t("info.enjoy_view"), 'primary', 2500)
         else
             TriggerEvent('qb-core:client:DrawText', 'E to enjoy the view', 'left')
+            
         end
     else
         TriggerEvent('qb-core:client:HideText')
